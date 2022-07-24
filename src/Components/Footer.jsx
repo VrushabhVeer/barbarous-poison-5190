@@ -11,6 +11,7 @@ const Footer = () => {
         maxH="455px"
         mt="8rem"
         p="5rem"
+        color="white"
       >
         <Flex gap="70px" textAlign="left" w="480px" m="auto">
           <Box>

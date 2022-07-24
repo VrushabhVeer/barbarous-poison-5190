@@ -17,8 +17,14 @@ export const textStyles = {
         fontWeight: "bold"
     },
 
-    h5:{
+    h5: {
         fontSize: "17px",
+    },
+
+    h6: {
+        fontSize: "14",
+        color: "rgb(23,162,184)",
+        fontWeight: "bold"
     },
 
     p: {
@@ -36,7 +42,8 @@ export const textStyles = {
         mt: "3rem",
         variant: "solid",
         backgroundColor: "rgb(200,16,46)",
-        p: "1.5rem"
+        p: "1.5rem",
+        color: "white"
     },
 
     btnSecondary: {
@@ -44,7 +51,8 @@ export const textStyles = {
         variant: "solid",
         backgroundColor: "rgb(200,16,46)",
         p: "1.5rem",
-        borderRadius: "30px"
+        borderRadius: "30px",
+        color: "white"
     },
 
     toolKitbtn: {
@@ -52,6 +60,7 @@ export const textStyles = {
         mt: "3rem",
         variant: "solid",
         p: "1.5rem",
+        color: "white"
     },
 
     btncontinue: {
@@ -59,13 +68,32 @@ export const textStyles = {
         variant: "solid",
         backgroundColor: "rgb(0,133,202)",
         p: "1.5rem",
-        borderRadius: "30px"
+        borderRadius: "30px",
+        color: "white"
     },
 
-    btnGhost:{
+    btnGhost: {
         variant: "ghost",
         mt: "3rem",
         p: "1.5rem",
         backgroundColor: "transparent",
+    },
+
+    nutriBox: {
+        borderRight: "1px solid",
+        h: '48px',
+        borderColor: 'gray.10',
+        paddingRight: "17px",
+        color: "white"
+    },
+
+    msgBtn: {
+        variant: "solid",
+        backgroundColor: "rgb(200,16,46)",
+        p: "1.5rem",
+        borderRadius: "30px",
+        mt: "2rem",
+        color: "white"
     }
+
 };

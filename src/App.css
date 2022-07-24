@@ -1,8 +1,12 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
 span {
-  color:rgb(64,123,255);
+  color:rgb(99,99,195);
   cursor: pointer;
 }

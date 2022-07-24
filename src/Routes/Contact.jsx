@@ -14,9 +14,9 @@ const Contact = () => {
     <div>
       <Container textAlign="left" maxW="70%" mt="3rem">
         <Box>
-          <Text fontSize="30px">READY TO JOIN?</Text>
-          <Box w="100px" bg="rgb(238,12,56)" h="2px" mt="0.5rem"></Box>
-          <Text mt="1.5rem">
+          <Text textStyle="h1">READY TO JOIN?</Text>
+          <Box textStyle="RedBorder"></Box>
+          <Text textStyle="p">
             SparkAmerica is made up of organizations and businesses just like
             yours. If you're interested in participating, joining us as a
             strategic partner, or becoming a sponsor, we would love to hear from
@@ -34,34 +34,24 @@ const Contact = () => {
 
         <Flex w="90%" gap="12" p="2" mt="2rem">
           <Box alignItems="left">
-            <Text fontSize="24px" mb="1rem">
+            <Text textStyle="h2" mb="1rem">
               REACH OUT
             </Text>
             <Input placeholder="Your Name" size="lg" />
             <Input placeholder="Email Address" size="lg" mt="1.5rem" />
-            <Text mt="1.5rem">Your Interest In SparkAmerica</Text>
+            <Text textStyle="p">Your Interest In SparkAmerica</Text>
             <Checkbox>Interested in Partnering</Checkbox>
             <br />
             <Checkbox>Interested in Sponsoring</Checkbox>
             <br />
             <Checkbox>Please bring SparkAmerica to Our City</Checkbox>
             <br />
-            <Button
-              variant="solid"
-              bg="rgb(215,40,47)"
-              p="1.5rem"
-              borderRadius="30px"
-              mt="2rem"
-            >
-              SEND MESSAGE
-            </Button>
+            <Button textStyle="msgBtn">SEND MESSAGE</Button>
           </Box>
 
-          <Box w="25%">
-            <Text fontSize="24px" mb="1rem">
-              OUR INFORMATION
-            </Text>
-            <Text>
+          <Box w="30%">
+            <Text textStyle="h2">OUR INFORMATION</Text>
+            <Text mt="1rem">
               <span>support@sparkamerica.com,</span>
             </Text>
             <Text>(888) 330-6891 SparkAmerica,</Text>

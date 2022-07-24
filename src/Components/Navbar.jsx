@@ -15,7 +15,7 @@ const Navbar = () => {
           </Link>
         </Box>
         <Flex
-          w="800px"
+          w="900px"
           gap="40px"
           fontSize="17px"
           m="auto"
